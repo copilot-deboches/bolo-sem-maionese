@@ -1,0 +1,54 @@
+<!--criar receita de bolo sem maionese delicioso-->
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Criar Receita de bolo sem maionese</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site Web para acesso aos dados da Receita Nacional de Bolo sem Maionese">
+    <meta name="author" content="Rafael Pessano">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+    <div class="container">
+        <div class="page-header">
+            <h1>Criar Receita de bolo sem maionese</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <form class="form-horizontal" action="receita_bolo_sem_maionese_criar.php" method="post">
+                    <div class="form-group">
+                        <label for="nome_receita" class="control-label">Nome da Receita:</label>
+                        <input type="text" class="form-control" id="nome_receita" name="nome_receita" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="ingredientes" class="control-label">Ingredientes:</label>
+                        <textarea class="form-control" id="ingredientes" name="ingredientes" rows="3" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="custo" class="control-label">Custo:</label>
+                        <input type="number" class="form-control" id="custo" name="custo" min="0" required>
+                    </div>
+                    <div class="form-group">
+                                            <label for="preparo" class="control-label">Preparo:</label>
+                        <textarea class="form-control" id="preparo" name="preparo" rows="3" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="data" class="control-label">Data:</label>
+                        <input type="date" class="form-control" id="data" name="data" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="imagem" class="control-label">Imagem:</label>
+                        <input type="file" class="form-control" id="imagem" name="imagem">
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-success" value="Criar Receita" name="enviar">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

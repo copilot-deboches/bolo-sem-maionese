@@ -1,2 +1,4 @@
-# bolo-sem-maionese
-Aprenda a criar finalmente aquele delicioso bolo sem maionese katchup e mostarda
+# criar um belo readme de receitas
+
+esse site é feito com amor e como um site de receitas, é necessário que o usuário possa escolher a receita que ele quer ler.
+para isso, precisamos de um readme de receitas.
